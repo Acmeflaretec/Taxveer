@@ -540,7 +540,14 @@ a:focus {
 
 .contact_section .map_container .map-responsive {
   height: 100%;
+  
 }
+@media(min-width: 768px) {
+.map-map{
+  width: 1880px;
+}
+}
+
 
 .footer_bg {
   background-image: url(../images/footer-bg.png);
