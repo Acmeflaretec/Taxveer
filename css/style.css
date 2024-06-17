@@ -540,13 +540,16 @@ a:focus {
 
 .contact_section .map_container .map-responsive {
   height: 100%;
-  
 }
-@media(min-width: 768px) {
-.map-map{
+
+.map-map {
   width: 100%;
-  margin-left: 450px;
 }
+
+@media(min-width: 768px) {
+  .map-map {
+    width: 100%;
+  }
 }
 
 
